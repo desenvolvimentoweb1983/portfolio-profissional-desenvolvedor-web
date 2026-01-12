@@ -1,13 +1,11 @@
-import Header from "./components/Header";
+import MainLayout from "./layouts/MainLayout";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <>
-      <Header />
-      <main>
-        <h1>Portfólio Profissional de Desenvolvedor Web</h1>
-      </main>
-    </>
+    <MainLayout>
+      <Home />
+    </MainLayout>
   );
 }
 
