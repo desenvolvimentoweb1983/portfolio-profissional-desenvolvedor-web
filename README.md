@@ -1,16 +1,73 @@
+# Portfólio Profissional de Desenvolvedor Web
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um portfólio profissional desenvolvido para demonstrar minhas habilidades técnicas como desenvolvedor web, minha evolução contínua e a aplicação de boas práticas de mercado.
 
-Currently, two official plugins are available:
+O projeto foi pensado não apenas como um site de apresentação, mas como um **ambiente real de aprendizado**, onde cada tecnologia é estudada, aplicada e documentada de forma incremental.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🎯 Objetivo do Projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Apresentar projetos e competências técnicas
+- Demonstrar evolução contínua no desenvolvimento web
+- Aplicar metodologias ágeis (Agile / Scrum)
+- Praticar código limpo, organização e documentação
+- Servir como material de avaliação para recrutadores
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Metodologia
+
+Este projeto segue conceitos de:
+
+- **Agile (Scrum)** — com sprints documentadas
+- **UX / UI** — foco em usabilidade e experiência do usuário
+- **Design Responsivo** — adaptação para diferentes dispositivos
+- **Clean Code** — código legível, organizado e sustentável
+- **Versionamento com Git** — histórico claro de evolução
+
+As sprints fazem parte do projeto e podem ser consultadas na pasta `docs/`.
+
+---
+
+## 🧩 Estrutura do Projeto
+
+```text
+portfolio-profissional-desenvolvedor-web
+├── docs
+│   ├── visao-do-projeto.md
+│   ├── backlog.md
+│   ├── sprints.md
+│   └── decisoes-tecnicas.md
+└── README.md
+```
+
+---
+
+## 🧪 Tecnologias Utilizadas
+
+- HTML
+- CSS
+- JavaScript
+- React
+- Node.js
+- Git & GitHub
+- MySQL
+- APIs REST
+- AI aplicada ao desenvolvimento
+- Agile (Scrum)
+- UX / UI
+- Design Responsivo
+
+---
+
+## 🚀 Evolução Contínua
+
+Cada tecnologia estudada será aplicada em páginas específicas do site, especialmente dentro do menu Tecnologias, permitindo visualizar claramente a evolução técnica ao longo do tempo.
+
+---
+
+## 📌 Status do Projeto
+
+🟢 Em desenvolvimento contínuo — Sprint 1 iniciada.
