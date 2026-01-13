@@ -33,14 +33,39 @@ As sprints fazem parte do projeto e podem ser consultadas na pasta `docs/`.
 
 ## 🧩 Estrutura do Projeto
 
+## 🗂 Estrutura Atual do Projeto
+
 ```text
-portfolio-profissional-desenvolvedor-web
-├── docs
-│   ├── visao-do-projeto.md
-│   ├── backlog.md
-│   ├── sprints.md
-│   └── decisoes-tecnicas.md
-└── README.md
+portfolio-profissional-desenvolvedor-web/
+├── public/
+│   └── logo.png
+├── src/
+│   ├── components/
+│   │   ├── Header/
+│   │   │   ├── Header.jsx
+│   │   │   └── Header.css
+│   │   └── Footer/
+│   │       ├── Footer.jsx
+│   │       └── Footer.css
+│   ├── layouts/
+│   │   ├── MainLayout.jsx
+│   │   └── MainLayout.css
+│   ├── pages/
+│   │   └── Home.jsx
+│   └── styles/
+│       └── global.css
+├── docs/
+│   └── sprints/
+│       ├── sprint-0.md
+│       └── sprint-1.md
+├── .git/
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+└── vite.config.js
 ```
 
 ---
