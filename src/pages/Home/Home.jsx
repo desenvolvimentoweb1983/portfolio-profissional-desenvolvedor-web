@@ -47,17 +47,6 @@ function Home() {
   // =========================== BLOCO 3: JSX ===========================
   return (
     <div className="home-container">
-
-      {/* ================= BOAS VINDAS ================= */}
-      <section className="welcome-card" style={{ display: 'flex', justifyContent: 'center' }}>
-        <p className="welcome-message">
-          Sou grato pela oportunidade de apresentar meu trabalho.{' '}
-          <span className="animated-text">
-            Explore meus projetos e descubra como posso agregar valor à sua equipe.
-          </span>
-        </p>
-      </section>
-
       {/* ================= PROJETOS ================= */}
       <section className="projetos">
         <h2>Projetos</h2>
@@ -75,6 +64,15 @@ function Home() {
             </a>
           ))}
         </div>
+      </section>
+      {/* ================= BOAS VINDAS ================= */}
+      <section className="welcome-card" style={{ display: 'flex', justifyContent: 'center' }}>
+        <p className="welcome-message">
+          Sou grato pela oportunidade de apresentar meu trabalho.{' '}
+          <span className="animated-text">
+            Explore meus projetos e descubra como posso agregar valor à sua equipe.
+          </span>
+        </p>
       </section>
 
     </div>
