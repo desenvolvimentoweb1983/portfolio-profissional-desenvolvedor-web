@@ -26,6 +26,7 @@
   gap: 1rem;
 }
 
+
 .branding .logo {
   width: 260px;       /* logo maior no desktop */
   height: auto;
@@ -113,4 +114,32 @@
   .nav {
     gap: 0.75rem;
   }
+}
+/* ================= BRAND-NAME INTERATIVO ================= */
+.branding .brand-name {
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover: muda a cor e faz leve movimento */
+.branding .brand-name:hover {
+  color: #1890ff;              /* cor de destaque */
+  transform: translateY(-2px);  /* leve subida sem quebrar layout */
+}
+
+/* Linha decorativa abaixo do texto ao passar o mouse */
+.branding .brand-name::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background-color: #1890ff;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.branding .brand-name:hover::after {
+  width: 100%;
 }

@@ -31,8 +31,7 @@ function Contato() {
   return (
     <section className="contato-section">
       <h1>Contato</h1>
-      <p>Entre em contato comigo através das opções abaixo:</p>
-
+      <p>Canais de comunicação</p>
       <div className="contato-links">
         {/* LinkedIn */}
         <a

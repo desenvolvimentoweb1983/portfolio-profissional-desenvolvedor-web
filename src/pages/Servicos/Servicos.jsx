@@ -53,7 +53,7 @@ function Servicos() {
   return (
     <section className="servicos-container">
 
-      <h1>Nossos Serviços</h1>
+      <h1>Serviços</h1>
 
       <p className="servicos-subtitulo">
         Soluções completas em desenvolvimento web, do planejamento à publicação.

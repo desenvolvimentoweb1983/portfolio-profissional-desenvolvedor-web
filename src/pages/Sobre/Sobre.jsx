@@ -3,12 +3,13 @@ import "./Sobre.css";
 function Sobre() {
   return (
     <div className="container">
-      <h1>Apresentação</h1>
+      <h1>Sobre</h1>
 
       {/* ================= APRESENTAÇÃO ================= */}
 <div className="apresentacao">
+  <h2>Apresentação</h2>
   <p>
-    Sou Tecnólogo em Desenvolvimento Web e estou cursando pós-graduação em Análise e Desenvolvimento de Sistemas, buscando consolidar uma base sólida em desenvolvimento de software, arquitetura de sistemas e boas práticas de engenharia.
+    Sou um Tecnólogo em Desenvolvimento Web e estou cursando Pós-Graduação em Análise e Desenvolvimento de Sistemas, buscando consolidar uma base sólida em desenvolvimento de software, arquitetura de sistemas e boas práticas de engenharia.
   </p>
 
   <p>
