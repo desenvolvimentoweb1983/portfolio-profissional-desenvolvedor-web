@@ -1,0 +1,116 @@
+/* ================= Header.css ================= */
+
+.header {
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  transition: all 0.3s ease;
+}
+
+/* ================= Branding ================= */
+.branding {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.branding .logo {
+  width: 260px;       /* logo maior no desktop */
+  height: auto;
+  object-fit: contain;
+  transition: width 0.3s ease;
+}
+
+.branding .brand-name {
+  font-size: 2rem;    /* destaque maior do nome */
+  font-weight: 700;
+  color: #111;
+  line-height: 1.2;
+}
+
+/* ================= Navegação ================= */
+.nav {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav li a {
+  color: #111;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav li a:hover {
+  color: #1890ff; /* destaque para conversão */
+  transform: scale(1.05);
+}
+
+/* ================= Responsividade ================= */
+@media (max-width: 1200px) {
+  .branding .logo {
+    width: 220px;
+  }
+
+  .branding .brand-name {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .branding .logo {
+    width: 200px;
+  }
+
+  .branding .brand-name {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header .container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .nav {
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .branding .logo {
+    width: 180px;
+  }
+
+  .branding .brand-name {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .branding .logo {
+    width: 150px; /* mobile */
+  }
+
+  .branding .brand-name {
+    font-size: 1.2rem;
+  }
+
+  .nav {
+    gap: 0.75rem;
+  }
+}
