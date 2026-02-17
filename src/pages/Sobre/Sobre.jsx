@@ -6,42 +6,48 @@ function Sobre() {
       <h1>Apresentação</h1>
 
       {/* ================= APRESENTAÇÃO ================= */}
-      <div className="apresentacao">
-        <p>
-          Sou Tecnólogo em Desenvolvimento Web e estou cursando pós-graduação em Análise e Desenvolvimento de Sistemas, buscando consolidar uma base sólida em desenvolvimento de software, arquitetura de sistemas e boas práticas de engenharia.
-        </p>
-        <p>
-          Atuo como Desenvolvedor Web, desenvolvendo sites e aplicações para pessoas, empresas e instituições, com foco em soluções modernas, responsivas, funcionais e orientadas às necessidades reais dos usuários.
-        </p>
-        <p>
-          Trabalho principalmente com HTML, CSS, JavaScript e React, aplicando boas práticas de desenvolvimento, usabilidade e acessibilidade. Atuo tanto na criação quanto na manutenção de projetos, realizando ajustes de layout, melhorias responsivas, atualização de conteúdo, correções e suporte técnico.
-        </p>
-        <p>Possuo experiência prática com:</p>
-        <ul>
-          <li>Criação e manutenção de sites pessoais e institucionais</li>
-          <li>Versionamento de código com Git e GitHub</li>
-          <li>Deploy e publicação em ambiente de produção</li>
-          <li>Organização de componentes e estruturação de projetos</li>
-          <li>Integração com banco de dados (MySQL)</li>
-          <li>Uso de IA aplicada ao desenvolvimento para aumento de produtividade e qualidade de código</li>
-        </ul>
-        <p>Minha formação acadêmica me proporcionou uma base sólida em:</p>
-        <ul>
-          <li>Lógica de programação, algoritmos e programação estruturada</li>
-          <li>Programação orientada a objetos</li>
-          <li>Análise e modelagem de sistemas e dados</li>
-          <li>Engenharia e projeto de software</li>
-          <li>Programação Web e desenvolvimento em JavaScript</li>
-          <li>Desenvolvimento responsivo e interfaces adaptáveis</li>
-          <li>UX/UI, usabilidade e experiência do usuário</li>
-          <li>Web Services, APIs e integrações</li>
-          <li>Banco de dados e SQL</li>
-          <li>Noções de arquitetura, redes e segurança de sistemas</li>
-        </ul>
-        <p>
-          Participei de projetos de extensão em Desenvolvimento Web, atuando no planejamento, desenvolvimento e entrega de soluções completas, lidando com requisitos reais, organização de código e publicação em ambiente de produção.
-        </p>
-      </div>
+<div className="apresentacao">
+  <p>
+    Sou Tecnólogo em Desenvolvimento Web e estou cursando pós-graduação em Análise e Desenvolvimento de Sistemas, buscando consolidar uma base sólida em desenvolvimento de software, arquitetura de sistemas e boas práticas de engenharia.
+  </p>
+
+  <p>
+    Atuo como Desenvolvedor Web, criando sites e aplicações para pessoas, empresas e instituições, com foco em soluções modernas, responsivas, funcionais e orientadas às necessidades reais dos usuários.
+  </p>
+
+  <p>
+    Trabalho principalmente com HTML, CSS, JavaScript e React, aplicando boas práticas de desenvolvimento, usabilidade e acessibilidade. Atuo tanto na criação quanto na manutenção de projetos, realizando ajustes de layout, melhorias responsivas, atualização de conteúdo, correções e suporte técnico.
+  </p>
+
+  <h3>Experiência prática com:</h3>
+  <ul>
+    <li>Criação e manutenção de sites pessoais e institucionais</li>
+    <li>Versionamento de código com Git e GitHub</li>
+    <li>Deploy e publicação em ambiente de produção</li>
+    <li>Organização de componentes e estruturação de projetos</li>
+    <li>Integração com banco de dados MySQL</li>
+    <li>Uso de IA aplicada ao desenvolvimento para aumento de produtividade e qualidade de código</li>
+  </ul>
+
+  <h3>Formação acadêmica proporcionou uma base sólida em:</h3>
+  <ul>
+    <li>Lógica de programação, algoritmos e programação estruturada</li>
+    <li>Programação orientada a objetos</li>
+    <li>Análise e modelagem de sistemas e dados</li>
+    <li>Engenharia e projeto de software</li>
+    <li>Programação Web e desenvolvimento em JavaScript</li>
+    <li>Desenvolvimento responsivo e interfaces adaptáveis</li>
+    <li>UX/UI, usabilidade e experiência do usuário</li>
+    <li>Web Services, APIs e integrações</li>
+    <li>Banco de dados e SQL</li>
+    <li>Noções de arquitetura, redes e segurança de sistemas</li>
+  </ul>
+
+  <p>
+    Participei de projetos de extensão em Desenvolvimento Web, atuando no planejamento, desenvolvimento e entrega de soluções completas, lidando com requisitos reais, organização de código e publicação em ambiente de produção.
+  </p>
+</div>
+
 
       {/* ================= FORMAÇÃO ================= */}
       <div className="formacao">
@@ -50,26 +56,6 @@ function Sobre() {
           <strong>Tecnólogo em Desenvolvimento Web</strong><br />
           Cursando Pós-graduação em Análise e Desenvolvimento de Sistemas
         </p>
-      </div>
-
-      {/* ================= TECNOLOGIAS ================= */}
-      <div className="tecnologias">
-        <h2>Tecnologias</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>Node.js</li>
-          <li>Git e GitHub</li>
-          <li>APIs REST</li>
-          <li>MySQL</li>
-          <li>UX / UI</li>
-          <li>Design Responsivo</li>
-          <li>Arquitetura Front-end</li>
-          <li>Clean Code</li>
-          <li>Ferramentas de IA aplicadas ao desenvolvimento</li>
-        </ul>
       </div>
 
       {/* ================= OBJETIVO ================= */}
