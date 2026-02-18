@@ -78,7 +78,16 @@ function Home() {
       <OSPopularityTable />
       
       {/* Aqui você coloca o módulo de clima */}
-      <WeatherApp />
+      
+      {/* CLIMA TEMPO */}
+      <div style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        minHeight: '80vh'
+      }}>
+        <WeatherApp />
+      </div>
     
     </div>
   );

@@ -6,6 +6,13 @@ const WeatherApp = () => {
   const [weather, setWeather] = useState(null);
   const [error, setError] = useState(null);
 
+const iconMap = {
+  "Partly cloudy": "/icons/partly-cloudy.png",
+  "Sunny": "/icons/sunny.png",
+  "Rain": "/icons/rain.png",
+  "Overcast": "/icons/overcast.png",
+};
+
   // 1️⃣ Obter localização do usuário com fallback
   useEffect(() => {
     if (!navigator.geolocation) {
@@ -62,7 +69,11 @@ const WeatherApp = () => {
   return (
     <div className="weather-card">
       <h2 className="weather-city">{weather.city}</h2>
-      <img src={weather.icon} alt={weather.desc} className="weather-icon" />
+      <img 
+        src={iconMap[weather.desc] || "/icons/default.png"} 
+        alt={weather.desc} 
+        className="weather-icon" 
+      />
       <p className="weather-desc">{weather.desc}</p>
       <p className="weather-temp">🌡️ {weather.temp}°C</p>
       <p className="weather-feels">Sensação: {weather.feelsLike}°C</p>
