@@ -1,6 +1,7 @@
 import "./Home.css";
 import LanguageBarChart from "../../components/LanguageBarChart/LanguageBarChart";
 import SkillTable from "../../components/OSPopularityTable/OSPopularityTable";
+import WeatherApp from "../../components/WeatherApp/WeatherApp"
 import { FaReact, FaJs, FaCss3Alt, FaHtml5, FaWordpress } from "react-icons/fa";
 import OSPopularityTable from "../../components/OSPopularityTable/OSPopularityTable";
 
@@ -75,7 +76,10 @@ function Home() {
       
       {/* ================= SKILL TABLE ================= */}
       <OSPopularityTable />
-
+      
+      {/* Aqui você coloca o módulo de clima */}
+      <WeatherApp />
+    
     </div>
   );
 }
