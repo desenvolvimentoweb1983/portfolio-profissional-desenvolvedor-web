@@ -1,0 +1,84 @@
+.os-table {
+  max-width: 1200px; /* igual ao container principal da home */
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #F9FAFB;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.os-table:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+.os-table h2 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  margin-bottom: 1.5rem;
+  color: #1F2937;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.os-table h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 3px;
+  background: #5C7AEA;
+  border-radius: 2px;
+}
+
+.os-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.os-table th, .os-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.os-table th {
+  background-color: #f3f4f6;
+  color: #1F2937;
+}
+
+.os-table tbody tr:hover {
+  background-color: #f9fafb;
+}
+
+.progress-bar {
+  position: relative;
+  height: 24px;
+  background-color: #E5E7EB;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(135deg, #F59E0B, #5C7AEA);
+  width: 0;
+  border-radius: 12px;
+  transition: width 1s ease;
+}
+
+.progress-label {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #fff;
+}

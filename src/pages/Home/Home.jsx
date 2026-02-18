@@ -1,6 +1,8 @@
 import "./Home.css";
 import LanguageBarChart from "../../components/LanguageBarChart/LanguageBarChart";
+import SkillTable from "../../components/OSPopularityTable/OSPopularityTable";
 import { FaReact, FaJs, FaCss3Alt, FaHtml5, FaWordpress } from "react-icons/fa";
+import OSPopularityTable from "../../components/OSPopularityTable/OSPopularityTable";
 
 function Home() {
 
@@ -69,8 +71,10 @@ function Home() {
       </section>
       
       {/* ================= LANGUAGE BAR CHART ================= */}
-<LanguageBarChart />
-
+      <LanguageBarChart />
+      
+      {/* ================= SKILL TABLE ================= */}
+      <OSPopularityTable />
 
     </div>
   );

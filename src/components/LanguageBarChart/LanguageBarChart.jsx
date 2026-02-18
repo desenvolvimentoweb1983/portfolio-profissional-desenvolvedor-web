@@ -33,7 +33,7 @@ const options = {
     title: {
       display: true,
       text: "Popularidade de Linguagens de Programação",
-      font: { size: 18 }
+      font: { size: 28 }
     }
   },
   scales: {
