@@ -1,19 +1,6 @@
 import "./Home.css";
-import { useEffect, useState } from "react";
+import LanguageBarChart from "../../components/LanguageBarChart/LanguageBarChart";
 import { FaReact, FaJs, FaCss3Alt, FaHtml5, FaWordpress } from "react-icons/fa";
-import {
-  Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
-  PointElement,
-  LineElement,
-  Title,
-  Tooltip,
-  Legend
-} from "chart.js";
-import { Line } from "react-chartjs-2";
-
-ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
 
 function Home() {
 
@@ -42,17 +29,22 @@ function Home() {
     },
   ];
 
-  
-
-  // =========================== BLOCO 3: JSX ===========================
+  // =========================== BLOCO 2: JSX ===========================
   return (
     <div className="home-container">
+
       {/* ================= PROJETOS ================= */}
       <section className="projetos">
         <h2>Projetos</h2>
         <div className="projetos-cards">
           {projetos.map((projeto, index) => (
-            <a key={index} href={projeto.url} target="_blank" rel="noopener noreferrer" className="projeto-card">
+            <a
+              key={index}
+              href={projeto.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="projeto-card"
+            >
               <img src={projeto.imagem} alt={projeto.nome} />
               <div className="projeto-info">
                 <h3>{projeto.nome}</h3>
@@ -65,6 +57,7 @@ function Home() {
           ))}
         </div>
       </section>
+
       {/* ================= BOAS VINDAS ================= */}
       <section className="welcome-card" style={{ display: 'flex', justifyContent: 'center' }}>
         <p className="welcome-message">
@@ -74,6 +67,10 @@ function Home() {
           </span>
         </p>
       </section>
+      
+      {/* ================= LANGUAGE BAR CHART ================= */}
+<LanguageBarChart />
+
 
     </div>
   );

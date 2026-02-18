@@ -1,0 +1,25 @@
+.language-bar-chart {
+  max-width: 1200px; /* igual ao container principal */
+  margin: 3rem auto; /* mesmo espaçamento entre seções */
+  padding: 2rem; /* mesmo padding de sections */
+  font-family: 'Inter', 'Segoe UI', Tahoma, Verdana, sans-serif;
+  color: #1F2937;
+  line-height: 1.6;
+  background-color: #F9FAFB; /* igual às sections */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.language-bar-chart:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+/* ================= Responsividade ================= */
+@media (max-width: 768px) {
+  .language-bar-chart {
+    padding: 1.5rem;
+    margin: 2rem auto;
+  }
+}
