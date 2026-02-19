@@ -26,8 +26,8 @@ function Home() {
     {
       nome: "Projeto Match com parceria da IBM",
       descricao: "Treinamento Interativo Sobre Atendimento ao Cliente.",
-      url: "https://dev-projeto1match.pantheonsite.io/",
-      tecnologias: [<FaWordpress />],
+      url: "https://treinamentoatendimentocliente.vercel.app/",
+      tecnologias: [<FaHtml5 />, <FaCss3Alt />, <FaJs />, <FaReact />],
       imagem: "https://dev-projeto1match.pantheonsite.io/wp-content/uploads/2023/11/logo-match-4.jpeg",
     },
   ];
