@@ -10,12 +10,13 @@ function Home() {
   // =========================== BLOCO 1: Projetos ===========================
   const projetos = [
     {
-      nome: "ADI Triunfo Pedreira",
-      descricao: "Site institucional para promover a presença digital e otimizar a comunicação da instituição.",
-      url: "https://www.aditriunfopedreira.com.br/",
+      nome: "Projeto Match com parceria da IBM",
+      descricao: "Treinamento Interativo Sobre Atendimento ao Cliente.",
+      url: "https://treinamentoatendimentocliente.vercel.app/",
       tecnologias: [<FaHtml5 />, <FaCss3Alt />, <FaJs />, <FaReact />],
-      imagem: "https://www.aditriunfopedreira.com.br/logo1.jpg",
+      imagem: "https://dev-projeto1match.pantheonsite.io/wp-content/uploads/2023/11/logo-match-4.jpeg",
     },
+    
     {
       nome: "WebDev Luís",
       descricao: "Criação de Sites e Landing Pages",
@@ -24,11 +25,18 @@ function Home() {
       imagem: "https://webdevluis.vercel.app/imagens/banner.jpg",
     },
     {
-      nome: "Projeto Match com parceria da IBM",
-      descricao: "Treinamento Interativo Sobre Atendimento ao Cliente.",
-      url: "https://treinamentoatendimentocliente.vercel.app/",
+      nome: "Conversor de Moedas Web",
+      descricao: "O Conversor de Moedas Web é uma aplicação moderna desenvolvida para realizar conversões cambiais em tempo real de forma simples, rápida e acessível diretamente pelo navegador.",
+      url: "https://conversor-moedas-web.vercel.app/",
       tecnologias: [<FaHtml5 />, <FaCss3Alt />, <FaJs />, <FaReact />],
-      imagem: "https://dev-projeto1match.pantheonsite.io/wp-content/uploads/2023/11/logo-match-4.jpeg",
+      imagem: "https://conversor-moedas-web.vercel.app/opengraph-image.png?opengraph-image.7b8decf5.png",
+    },
+    {
+      nome: "ADI Triunfo Pedreira",
+      descricao: "Site institucional para promover a presença digital e otimizar a comunicação da instituição.",
+      url: "https://www.aditriunfopedreira.com.br/",
+      tecnologias: [<FaHtml5 />, <FaCss3Alt />, <FaJs />, <FaReact />],
+      imagem: "https://www.aditriunfopedreira.com.br/logo1.jpg",
     },
   ];
 
