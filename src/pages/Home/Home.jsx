@@ -16,7 +16,13 @@ function Home() {
       tecnologias: [<FaHtml5 />, <FaCss3Alt />, <FaJs />, <FaReact />],
       imagem: "https://dev-projeto1match.pantheonsite.io/wp-content/uploads/2023/11/logo-match-4.jpeg",
     },
-    
+    {
+      nome: "Oficina Mecânica",
+      descricao: "Template de landing page para oficinas mecânicas",
+      url: "https://oficina-webdevluis.vercel.app/",
+      tecnologias: [<FaHtml5 />, <FaCss3Alt />, <FaJs />],
+      imagem: "https://oficina-webdevluis.vercel.app/img/oficina1.jpg",
+    },
     {
       nome: "WebDev Luís",
       descricao: "Criação de Sites e Landing Pages",
