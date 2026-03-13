@@ -31,6 +31,13 @@ function Home() {
       imagem: "https://oficina-webdevluis.vercel.app/img/oficina1.jpg",
     },
     {
+      nome: "LImpeza e Manutenção de Piscinas",
+      descricao: "Template de landing page para Limpeza e manutenção de piscinas",
+      url: "https://piscina-webdevluis.vercel.app/",
+      tecnologias: [<FaHtml5 />, <FaCss3Alt />, <FaJs />],
+      imagem: "	https://piscina-webdevluis.vercel.app/img/piscina1.jpg",
+    },
+    {
       nome: "WebDev Luís",
       descricao: "Criação de Sites e Landing Pages",
       url: "https://webdevluis.vercel.app/",
