@@ -11,7 +11,6 @@ O projeto foi pensado não apenas como um site de apresentação, mas como um **
 
 - Apresentar projetos e competências técnicas
 - Demonstrar evolução contínua no desenvolvimento web
-- Aplicar metodologias ágeis (Agile / Scrum)
 - Praticar código limpo, organização e documentação
 - Servir como material de avaliação para recrutadores
 
@@ -21,13 +20,11 @@ O projeto foi pensado não apenas como um site de apresentação, mas como um **
 
 Este projeto segue conceitos de:
 
-- **Agile (Scrum)** — com sprints documentadas
 - **UX / UI** — foco em usabilidade e experiência do usuário
 - **Design Responsivo** — adaptação para diferentes dispositivos
 - **Clean Code** — código legível, organizado e sustentável
 - **Versionamento com Git** — histórico claro de evolução
 
-As sprints fazem parte do projeto e podem ser consultadas na pasta `docs/`.
 
 ---
 
@@ -54,10 +51,6 @@ portfolio-profissional-desenvolvedor-web/
 │   │   └── 📝 Home.jsx
 │   └── 📁 styles/
 │       └── 🎨 global.css
-├── 📁 docs/
-│   └── 📁 sprints/
-│       ├── 📝 sprint-0.md
-│       └── 📝 sprint-1.md
 ├── ⚙️ .git/
 ├── ⚙️ .gitignore
 ├── ⚙️ eslint.config.js
@@ -81,7 +74,6 @@ portfolio-profissional-desenvolvedor-web/
 - MySQL
 - APIs REST
 - AI aplicada ao desenvolvimento
-- Agile (Scrum)
 - UX / UI
 - Design Responsivo
 
@@ -89,10 +81,10 @@ portfolio-profissional-desenvolvedor-web/
 
 ## 🚀 Evolução Contínua
 
-Cada tecnologia estudada será aplicada em páginas específicas do site, especialmente dentro do menu Tecnologias, permitindo visualizar claramente a evolução técnica ao longo do tempo.
+Cada tecnologia estudada será aplicada em páginas do site, permitindo visualizar claramente a evolução técnica ao longo do tempo.
 
 ---
 
 ## 📌 Status do Projeto
 
-🟢 Em desenvolvimento contínuo — Sprint 1 iniciada.
+🟢 Em desenvolvimento contínuo.

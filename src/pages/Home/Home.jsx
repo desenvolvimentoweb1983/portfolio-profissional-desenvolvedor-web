@@ -17,6 +17,13 @@ function Home() {
       imagem: "https://dev-projeto1match.pantheonsite.io/wp-content/uploads/2023/11/logo-match-4.jpeg",
     },
     {
+      nome: "Registro de Marcas",
+      descricao: "Site demonstrativo para consultoria de registro de marcas e patentes no Brasil.",
+      url: "https://registro-de-marcas-site.vercel.app/",
+      tecnologias: [<FaHtml5 />, <FaCss3Alt />, <FaJs />],
+      imagem: "https://registro-de-marcas-site.vercel.app/img/hero.jpg",
+    },
+    {
       nome: "Oficina Mecânica",
       descricao: "Template de landing page para oficinas mecânicas",
       url: "https://oficina-webdevluis.vercel.app/",
