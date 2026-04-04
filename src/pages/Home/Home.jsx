@@ -3,18 +3,44 @@ import LanguageBarChart from "../../components/LanguageBarChart/LanguageBarChart
 import SkillTable from "../../components/OSPopularityTable/OSPopularityTable";
 import WeatherApp from "../../components/WeatherApp/WeatherApp"
 import { FaReact, FaJs, FaCss3Alt, FaHtml5, FaWordpress } from "react-icons/fa";
-import OSPopularityTable from "../../components/OSPopularityTable/OSPopularityTable";
+import { FaPhp } from "react-icons/fa";
+import { FaCode } from "react-icons/fa";
+import { FaPython } from "react-icons/fa";
+
+import logoCsharp from "../../img/csharp.png";
+import logoPHP from "../../img/php.png";
 
 function Home() {
 
   // =========================== BLOCO 1: Projetos ===========================
   const projetos = [
     {
+      nome: "ADI Triunfo Pedreira",
+      descricao: "Site institucional para promover a presença digital e otimizar a comunicação da instituição.",
+      url: "https://www.aditriunfopedreira.com.br/",
+      tecnologias: [<FaHtml5 />, <FaCss3Alt />, <FaJs />, <FaReact />],
+      imagem: "https://www.aditriunfopedreira.com.br/logo1.jpg",
+    },
+    {
       nome: "Projeto Match com parceria da IBM",
       descricao: "Treinamento Interativo Sobre Atendimento ao Cliente.",
       url: "https://treinamentoatendimentocliente.vercel.app/",
       tecnologias: [<FaHtml5 />, <FaCss3Alt />, <FaJs />, <FaReact />],
       imagem: "https://dev-projeto1match.pantheonsite.io/wp-content/uploads/2023/11/logo-match-4.jpeg",
+    },
+    {
+      nome: "WebDev Luís",
+      descricao: "Criação de Sites e Landing Pages",
+      url: "https://webdevluis.vercel.app/",
+      tecnologias: [<FaHtml5 />, <FaCss3Alt />, <FaJs />],
+      imagem: "https://webdevluis.vercel.app/imagens/banner.jpg",
+    },
+    {
+      nome: "php-na-pratica",
+      descricao: "Projeto simples desenvolvido em PHP para demonstrar conhecimentos em desenvolvimento web, com estrutura organizada, conteúdo dinâmico e layout responsivo.",
+      url: "https://webdevluis.infinityfreeapp.com/",
+      tecnologias: [<FaPhp />],
+      imagem: logoPHP,
     },
     {
       nome: "Registro de Marcas",
@@ -31,6 +57,13 @@ function Home() {
       imagem: "https://oficina-webdevluis.vercel.app/img/oficina1.jpg",
     },
     {
+      nome: "meu-site-csharp",
+      descricao: "Site institucional para promover a presença digital e otimizar a comunicação da instituição.",
+      url: "https://meu-site-csharp.onrender.com/",
+      tecnologias: [<FaCode />],
+      imagem: logoCsharp,
+    },
+    {
       nome: "LImpeza e Manutenção de Piscinas",
       descricao: "Template de landing page para Limpeza e manutenção de piscinas",
       url: "https://piscina-webdevluis.vercel.app/",
@@ -38,25 +71,11 @@ function Home() {
       imagem: "	https://piscina-webdevluis.vercel.app/img/piscina1.jpg",
     },
     {
-      nome: "WebDev Luís",
-      descricao: "Criação de Sites e Landing Pages",
-      url: "https://webdevluis.vercel.app/",
-      tecnologias: [<FaHtml5 />, <FaCss3Alt />, <FaJs />],
-      imagem: "https://webdevluis.vercel.app/imagens/banner.jpg",
-    },
-    {
       nome: "Conversor de Moedas Web",
       descricao: "O Conversor de Moedas Web é uma aplicação moderna desenvolvida para realizar conversões cambiais em tempo real de forma simples, rápida e acessível diretamente pelo navegador.",
       url: "https://conversor-moedas-web.vercel.app/",
-      tecnologias: [<FaHtml5 />, <FaCss3Alt />, <FaJs />, <FaReact />],
+      tecnologias: [<FaPython />],
       imagem: "https://conversor-moedas-web.vercel.app/opengraph-image.png?opengraph-image.7b8decf5.png",
-    },
-    {
-      nome: "ADI Triunfo Pedreira",
-      descricao: "Site institucional para promover a presença digital e otimizar a comunicação da instituição.",
-      url: "https://www.aditriunfopedreira.com.br/",
-      tecnologias: [<FaHtml5 />, <FaCss3Alt />, <FaJs />, <FaReact />],
-      imagem: "https://www.aditriunfopedreira.com.br/logo1.jpg",
     },
   ];
 
@@ -103,7 +122,7 @@ function Home() {
       <LanguageBarChart />
       
       {/* ================= SKILL TABLE ================= */}
-      <OSPopularityTable />
+      <SkillTable />
       
       {/* Aqui você coloca o módulo de clima */}
       
