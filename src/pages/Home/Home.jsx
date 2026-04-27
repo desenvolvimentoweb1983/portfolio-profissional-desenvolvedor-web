@@ -26,7 +26,7 @@ function Home() {
       descricao: "Treinamento Interativo Sobre Atendimento ao Cliente.",
       url: "https://treinamentoatendimentocliente.vercel.app/",
       tecnologias: [<FaHtml5 />, <FaCss3Alt />, <FaJs />, <FaReact />],
-      imagem: "https://treinamentoatendimentocliente.vercel.app/_…t/image?url=%2Fimages%2Flogo-match.png&w=640&q=75",
+      imagem: "https://treinamentoatendimentocliente.vercel.app/images/logo-match.png",
     },
     {
       nome: "WebDev Luís",
