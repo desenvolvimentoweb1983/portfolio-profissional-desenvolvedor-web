@@ -65,11 +65,11 @@ function Home() {
       imagem: logoCsharp,
     },
     {
-      nome: "LImpeza e Manutenção de Piscinas",
+      nome: "Limpeza e Manutenção de Piscinas",
       descricao: "Template de landing page para Limpeza e manutenção de piscinas",
       url: "https://piscina-webdevluis.vercel.app/",
       tecnologias: [<FaHtml5 />, <FaCss3Alt />, <FaJs />],
-      imagem: "	https://piscina-webdevluis.vercel.app/img/piscina1.jpg",
+      imagem: "https://piscina-webdevluis.vercel.app/img/piscina1.jpg",
     },
     {
       nome: "Conversor de Moedas Web",
