@@ -9,7 +9,6 @@ import { FaPython } from "react-icons/fa";
 
 import logoCsharp from "../../img/csharp.png";
 import logoPHP from "../../img/php.png";
-import logoMatch from "../../img/match.jpeg";
 
 function Home() {
 
@@ -27,7 +26,7 @@ function Home() {
       descricao: "Treinamento Interativo Sobre Atendimento ao Cliente.",
       url: "https://treinamentoatendimentocliente.vercel.app/",
       tecnologias: [<FaHtml5 />, <FaCss3Alt />, <FaJs />, <FaReact />],
-      imagem: logoMatch,
+      imagem: "/images/match.jpeg",
     },
     {
       nome: "WebDev Luís",
