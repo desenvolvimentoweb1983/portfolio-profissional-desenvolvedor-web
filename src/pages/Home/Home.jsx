@@ -9,7 +9,7 @@ import { FaPython } from "react-icons/fa";
 
 import logoCsharp from "../../img/csharp.png";
 import logoPHP from "../../img/php.png";
-import logoMatch from "../../img/logo-match.png";
+import logoMatch from "../../img/match.jpeg";
 
 function Home() {
 
