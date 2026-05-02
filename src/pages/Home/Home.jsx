@@ -9,6 +9,7 @@ import { FaPython } from "react-icons/fa";
 
 import logoCsharp from "../../img/csharp.png";
 import logoPHP from "../../img/php.png";
+import logoConversor from "../../img/conversor.png";
 
 function Home() {
 
@@ -75,7 +76,7 @@ function Home() {
       descricao: "O Conversor de Moedas Web é uma aplicação moderna desenvolvida para realizar conversões cambiais em tempo real de forma simples, rápida e acessível diretamente pelo navegador.",
       url: "https://conversor-moedas-web.vercel.app/",
       tecnologias: [<FaPython />],
-      imagem: "https://conversor-moedas-web.vercel.app/opengraph-image.png?opengraph-image.7b8decf5.png",
+      imagem: logoConversor
     },
   ];
 
