@@ -105,16 +105,6 @@ function Contato() {
 
       </div>
 
-      {/* Botão flutuante do WhatsApp */}
-      <a
-        href={`https://wa.me/5519974082724?text=${mensagemWhatsApp}`}
-        className="whatsapp-flutuante contato-whatsapp-unico"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Fale comigo no WhatsApp"
-      >
-        <FaWhatsapp size={28} />
-      </a>
 
     </section>
   );

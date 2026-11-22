@@ -122,34 +122,6 @@
   transform: translateY(-3px) scale(1.05);
 }
 
-/* ================= Botão flutuante WhatsApp ================= */
-.contato-section .contato-whatsapp-unico {
-  position: fixed;
-  bottom: 25px;
-  right: 25px;
-  width: 52px;
-  height: 52px;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #25D366;
-  color: #fff;
-  border-radius: 50%;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  z-index: 999;
-  text-decoration: none;
-  transform: none;
-  animation: none;
-  transition: background-color 0.3s ease;
-}
-
-.contato-section .contato-whatsapp-unico:hover {
-  background-color: #1DA851;
-  color: #fff;
-  transform: none;
-}
-
 /* ================= Responsividade ================= */
 @media (max-width: 768px) {
   .contato-links {
@@ -167,12 +139,5 @@
 @media (max-width: 480px) {
   .contato-section {
     padding: 1rem;
-  }
-
-  .contato-section .contato-whatsapp-unico {
-    bottom: 15px;
-    right: 15px;
-    width: 48px;
-    height: 48px;
   }
 }

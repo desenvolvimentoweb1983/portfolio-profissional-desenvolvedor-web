@@ -1,4 +1,39 @@
+
 .main-content {
   min-height: calc(100vh - 120px);
   padding: 2rem 0;
+}
+
+/* Botão flutuante WhatsApp */
+
+.whatsapp-global {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #25D366;
+  color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  z-index: 99999;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-global:hover {
+  background-color: #1DA851;
+  color: #ffffff;
+}
+
+@media (max-width: 480px) {
+  .whatsapp-global {
+    width: 52px;
+    height: 52px;
+    bottom: 15px;
+    right: 15px;
+  }
 }
