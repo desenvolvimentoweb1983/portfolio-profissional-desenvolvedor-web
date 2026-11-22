@@ -1,3 +1,4 @@
+
 import "./Sobre.css";
 
 function Sobre() {
@@ -6,49 +7,60 @@ function Sobre() {
       <h1>Sobre</h1>
 
       {/* ================= APRESENTAÇÃO ================= */}
-<div className="apresentacao">
-  <h2>Apresentação</h2>
-  <p>
-    Sou um Tecnólogo em Desenvolvimento Web e estou cursando Pós-Graduação em Análise e Desenvolvimento de Sistemas, buscando consolidar uma base sólida em desenvolvimento de software, arquitetura de sistemas e boas práticas de engenharia.
-  </p>
+      <div className="apresentacao">
+        <h2>Apresentação</h2>
+        <p>
+          Sou Tecnólogo em Desenvolvimento Web e atualmente curso
+          Pós-Graduação em Análise e Desenvolvimento de Sistemas.
+          Minha trajetória profissional combina desenvolvimento de
+          soluções web, programação e ensino de desenvolvimento de
+          jogos digitais, buscando constante evolução técnica e prática.
+        </p>
 
-  <p>
-    Atuo como Desenvolvedor Web, criando sites e aplicações para pessoas, empresas e instituições, com foco em soluções modernas, responsivas, funcionais e orientadas às necessidades reais dos usuários.
-  </p>
+        <p>
+          Atuo como Desenvolvedor Web, criando sites e aplicações para pessoas, empresas e instituições, com foco em soluções modernas, responsivas, funcionais e orientadas às necessidades reais dos usuários.
+        </p>
 
-  <p>
-    Trabalho principalmente com HTML, CSS, JavaScript e React, aplicando boas práticas de desenvolvimento, usabilidade e acessibilidade. Atuo tanto na criação quanto na manutenção de projetos, realizando ajustes de layout, melhorias responsivas, atualização de conteúdo, correções e suporte técnico.
-  </p>
+        <p>
+          Trabalho principalmente com HTML, CSS, JavaScript e React, aplicando boas práticas de desenvolvimento, usabilidade e acessibilidade. Atuo tanto na criação quanto na manutenção de projetos, realizando ajustes de layout, melhorias responsivas, atualização de conteúdo, correções e suporte técnico.
+        </p>
 
-  <h3>Experiência prática com:</h3>
-  <ul>
-    <li>Criação e manutenção de sites pessoais e institucionais</li>
-    <li>Versionamento de código com Git e GitHub</li>
-    <li>Deploy e publicação em ambiente de produção</li>
-    <li>Organização de componentes e estruturação de projetos</li>
-    <li>Integração com banco de dados MySQL</li>
-    <li>Uso de IA aplicada ao desenvolvimento para aumento de produtividade e qualidade de código</li>
-  </ul>
+        <h3>Experiência prática com:</h3>
+        <ul>
+          <li>Criação e manutenção de sites pessoais e institucionais</li>
+          <li>Versionamento de código com Git e GitHub</li>
+          <li>Deploy e publicação em ambiente de produção</li>
+          <li>Organização de componentes e estruturação de projetos</li>
+          <li>Integração com banco de dados MySQL</li>
+          <li>Uso de IA aplicada ao desenvolvimento para aumento de produtividade e qualidade de código</li>
+        </ul>
 
-  <h3>Formação acadêmica proporcionou uma base sólida em:</h3>
-  <ul>
-    <li>Lógica de programação, algoritmos e programação estruturada</li>
-    <li>Programação orientada a objetos</li>
-    <li>Análise e modelagem de sistemas e dados</li>
-    <li>Engenharia e projeto de software</li>
-    <li>Programação Web e desenvolvimento em JavaScript</li>
-    <li>Desenvolvimento responsivo e interfaces adaptáveis</li>
-    <li>UX/UI, usabilidade e experiência do usuário</li>
-    <li>Web Services, APIs e integrações</li>
-    <li>Banco de dados e SQL</li>
-    <li>Noções de arquitetura, redes e segurança de sistemas</li>
-  </ul>
+        <h3>Formação acadêmica proporcionou uma base sólida em:</h3>
+        <ul>
+          <li>Lógica de programação, algoritmos e programação estruturada</li>
+          <li>Programação orientada a objetos</li>
+          <li>Análise e modelagem de sistemas e dados</li>
+          <li>Engenharia e projeto de software</li>
+          <li>Programação Web e desenvolvimento em JavaScript</li>
+          <li>Desenvolvimento responsivo e interfaces adaptáveis</li>
+          <li>UX/UI, usabilidade e experiência do usuário</li>
+          <li>Web Services, APIs e integrações</li>
+          <li>Banco de dados e SQL</li>
+          <li>Noções de arquitetura, redes e segurança de sistemas</li>
+        </ul>
 
-  <p>
-    Participei de projetos de extensão em Desenvolvimento Web, atuando no planejamento, desenvolvimento e entrega de soluções completas, lidando com requisitos reais, organização de código e publicação em ambiente de produção.
-  </p>
-</div>
+        <p>
+          Participei de projetos de extensão em Desenvolvimento Web, atuando no planejamento, desenvolvimento e entrega de soluções completas, lidando com requisitos reais, organização de código e publicação em ambiente de produção.
+        </p>
+      </div>
 
+      {/* ================= EXPERIÊNCIA EM GAMES ================= */}
+      <div className="experiencia">
+        <h2>Experiência em Desenvolvimento de Jogos</h2>
+        <p>
+          Atuo como instrutor freelancer de desenvolvimento de jogos digitais, utilizando GDevelop 5, Construct 3 e GameMaker, com foco no ensino de lógica de programação e criação de jogos 2D e 3D.
+        </p>
+      </div>
 
       {/* ================= FORMAÇÃO ================= */}
       <div className="formacao">
@@ -93,7 +105,9 @@ function Sobre() {
       {/* ================= CONTEÚDOS ESTUDADOS ================= */}
       <div className="conteudos-estudados">
         <h2>Áreas de Estudo e Aprendizado</h2>
-<p>Conteúdos estudados durante minha graduação em Desenvolvimento Web e em andamento na pós-graduação em Análise e Desenvolvimento de Sistemas.</p>
+        <p>
+          Conteúdos estudados durante minha graduação em Desenvolvimento Web e em andamento na pós-graduação em Análise e Desenvolvimento de Sistemas.
+        </p>
 
         {/* ================= FUNDAMENTOS ================= */}
         <div className="area-estudo">

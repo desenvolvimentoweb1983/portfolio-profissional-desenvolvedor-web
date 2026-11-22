@@ -1,4 +1,6 @@
+
 import "./Servicos.css";
+
 import {
   FaLaptopCode,
   FaCogs,
@@ -6,8 +8,10 @@ import {
   FaTools,
   FaRocket,
   FaChartLine,
-  FaHandshake
+  FaHandshake,
+  FaGamepad
 } from "react-icons/fa";
+
 import { Link } from "react-router-dom";
 
 function Servicos() {
@@ -47,6 +51,11 @@ function Servicos() {
       icone: <FaHandshake />,
       titulo: "Consultoria Digital",
       descricao: "Planejamento estratégico para seu projeto."
+    },
+    {
+      icone: <FaGamepad />,
+      titulo: "Instrutor de Desenvolvimento de Jogos",
+      descricao: "Aulas práticas de lógica de programação e criação de jogos 2D e 3D, utilizando GDevelop 5, Construct 3 e GameMaker."
     }
   ];
 
@@ -56,7 +65,7 @@ function Servicos() {
       <h1>Serviços</h1>
 
       <p className="servicos-subtitulo">
-        Soluções completas em desenvolvimento web, do planejamento à publicação.
+        Soluções em desenvolvimento web, criação de jogos digitais e tecnologia.
       </p>
 
       <div className="servicos-grid">
@@ -68,6 +77,7 @@ function Servicos() {
             </div>
 
             <h3>{servico.titulo}</h3>
+
             <p>{servico.descricao}</p>
 
             <Link to="/contato" className="servico-botao">
@@ -77,6 +87,7 @@ function Servicos() {
           </div>
         ))}
       </div>
+
     </section>
   );
 }

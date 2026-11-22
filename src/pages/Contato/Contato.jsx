@@ -1,4 +1,12 @@
-import { FaLinkedin, FaWhatsapp, FaGithub } from "react-icons/fa";
+
+import {
+  FaLinkedin,
+  FaWhatsapp,
+  FaGithub,
+  FaFacebook,
+  FaInstagram
+} from "react-icons/fa";
+
 import "./Contato.css";
 
 function Contato() {
@@ -17,7 +25,7 @@ function Contato() {
     const subject = encodeURIComponent("Contato pelo site");
 
     if (isMobile) {
-      // Mobile: abre app de e-mail
+      // Mobile: abre aplicativo de e-mail
       window.location.href = `mailto:${email}?subject=${subject}`;
     } else {
       // Desktop: abre Gmail web
@@ -31,8 +39,11 @@ function Contato() {
   return (
     <section className="contato-section">
       <h1>Contato</h1>
+
       <p>Canais de comunicação</p>
+
       <div className="contato-links">
+
         {/* LinkedIn */}
         <a
           href="https://linkedin.com/in/luís-oliveira-563341279"
@@ -53,6 +64,26 @@ function Contato() {
           <FaWhatsapp /> WhatsApp
         </a>
 
+        {/* Facebook */}
+        <a
+          href="https://www.facebook.com/share/1EKwPgrf6Q/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="contato-link facebook"
+        >
+          <FaFacebook /> Facebook
+        </a>
+
+        {/* Instagram */}
+        <a
+          href="https://www.instagram.com/devluisoliveirasolutions?utm_source=qr&hvrq=c2VkbDRwOGJnZXE3"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="contato-link instagram"
+        >
+          <FaInstagram /> Instagram
+        </a>
+
         {/* E-mail universal */}
         <button
           onClick={abrirEmail}
@@ -71,18 +102,20 @@ function Contato() {
         >
           <FaGithub /> GitHub
         </a>
+
       </div>
 
-      {/* Ícone flutuante do WhatsApp */}
+      {/* Botão flutuante do WhatsApp */}
       <a
         href={`https://wa.me/5519974082724?text=${mensagemWhatsApp}`}
-        className="whatsapp-flutuante"
+        className="whatsapp-flutuante contato-whatsapp-unico"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Fale comigo no WhatsApp"
       >
         <FaWhatsapp size={28} />
       </a>
+
     </section>
   );
 }
