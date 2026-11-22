@@ -16,12 +16,19 @@ function Home() {
   // =========================== BLOCO 1: Projetos ===========================
   const projetos = [
     {
-      nome: "Blue Bird",
-      descricao: "Desenvolvimento de Jogos com GDevelop 5.",
-      url: "https://dev-luis-oliveira-game-blue-bird.vercel.app/",
-      tecnologias: [<FaGamepad />],
-      imagem: "/images/bluebird.png",
-    },
+  nome: "Western Shooter 3D",
+  descricao: "Jogo de tiro 3D em JavaScript + Three.js + Vite.",
+  url: "https://western-shooter-3d.vercel.app/",
+  tecnologias: [<FaJs />, <FaCode />],
+  imagem: "/images/Western.png",
+},
+    {
+  nome: "Blue Bird",
+  descricao: "Desenvolvimento de Jogos com GDevelop 5.",
+  url: "https://dev-luis-oliveira-game-blue-bird.vercel.app/",
+  tecnologias: [<FaGamepad />],
+  imagem: "/images/bluebird.png",
+},
     {
       nome: "Jogo de Nave",
       descricao: "Desenvolvimento de Jogos com Construct 3.",
