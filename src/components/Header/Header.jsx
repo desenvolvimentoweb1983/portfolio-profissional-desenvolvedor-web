@@ -11,7 +11,7 @@ function Header() {
             alt="Logo Luís Oliveira"
             className="logo"
           />
-          <span className="brand-name">Portfólio</span>
+          <span className="brand-name">PORTFÓLIO</span>
         </div>
 
         <nav>
