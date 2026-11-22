@@ -2,7 +2,7 @@ import "./Home.css";
 import LanguageBarChart from "../../components/LanguageBarChart/LanguageBarChart";
 import SkillTable from "../../components/OSPopularityTable/OSPopularityTable";
 import WeatherApp from "../../components/WeatherApp/WeatherApp"
-import { FaReact, FaJs, FaCss3Alt, FaHtml5, FaWordpress } from "react-icons/fa";
+import { FaReact, FaJs, FaCss3Alt, FaHtml5, FaWordpress, FaGamepad } from "react-icons/fa";
 import { FaPhp } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
@@ -15,6 +15,27 @@ function Home() {
 
   // =========================== BLOCO 1: Projetos ===========================
   const projetos = [
+    {
+      nome: "Blue Bird",
+      descricao: "Desenvolvimento de Jogos com GDevelop 5.",
+      url: "https://dev-luis-oliveira-game-blue-bird.vercel.app/",
+      tecnologias: [<FaGamepad />],
+      imagem: "/images/bluebird.png",
+    },
+    {
+      nome: "Jogo de Nave",
+      descricao: "Desenvolvimento de Jogos com Construct 3.",
+      url: "https://dev-luis-oliveira-game-nave.vercel.app/",
+      tecnologias: [<FaGamepad />],
+      imagem: "/images/nave.png",
+    },
+    {
+      nome: "Kitnet Jaguariúna",
+      descricao: "Site de divulgação de Kitnets para locação.",
+      url: "https://kitnetjaguariuna.vercel.app/",
+      tecnologias: [<FaHtml5 />, <FaCss3Alt />, <FaJs />],
+      imagem: "/images/kitnet.png",
+    },
     {
       nome: "ADI Triunfo Pedreira",
       descricao: "Site institucional para promover a presença digital e otimizar a comunicação da instituição.",
@@ -31,7 +52,7 @@ function Home() {
     },
     {
       nome: "WebDev Luís",
-      descricao: "Criação de Sites e Landing Pages",
+      descricao: "Criação de Sites e Landing Pages.",
       url: "https://webdevluis.vercel.app/",
       tecnologias: [<FaHtml5 />, <FaCss3Alt />, <FaJs />],
       imagem: "https://webdevluis.vercel.app/imagens/banner.jpg",
@@ -52,7 +73,7 @@ function Home() {
     },
     {
       nome: "Oficina Mecânica",
-      descricao: "Template de landing page para oficinas mecânicas",
+      descricao: "Template de landing page para oficinas mecânicas.",
       url: "https://oficina-webdevluis.vercel.app/",
       tecnologias: [<FaHtml5 />, <FaCss3Alt />, <FaJs />],
       imagem: "https://oficina-webdevluis.vercel.app/img/oficina1.jpg",
@@ -66,7 +87,7 @@ function Home() {
     },
     {
       nome: "Limpeza e Manutenção de Piscinas",
-      descricao: "Template de landing page para Limpeza e manutenção de piscinas",
+      descricao: "Template de landing page para Limpeza e manutenção de piscinas.",
       url: "https://piscina-webdevluis.vercel.app/",
       tecnologias: [<FaHtml5 />, <FaCss3Alt />, <FaJs />],
       imagem: "https://piscina-webdevluis.vercel.app/img/piscina1.jpg",
@@ -108,34 +129,6 @@ function Home() {
           ))}
         </div>
       </section>
-
-      {/* ================= BOAS VINDAS ================= */}
-      <section className="welcome-card" style={{ display: 'flex', justifyContent: 'center' }}>
-        <p className="welcome-message">
-          Sou grato pela oportunidade de apresentar meu trabalho.{' '}
-          <span className="animated-text">
-            Explore meus projetos e descubra como posso agregar valor à sua equipe.
-          </span>
-        </p>
-      </section>
-      
-      {/* ================= LANGUAGE BAR CHART ================= */}
-      <LanguageBarChart />
-      
-      {/* ================= SKILL TABLE ================= */}
-      <SkillTable />
-      
-      {/* Aqui você coloca o módulo de clima */}
-      
-      {/* CLIMA TEMPO */}
-      <div style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        minHeight: '80vh'
-      }}>
-        <WeatherApp />
-      </div>
     
     </div>
   );
