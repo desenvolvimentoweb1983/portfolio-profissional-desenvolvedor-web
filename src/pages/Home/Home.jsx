@@ -22,6 +22,8 @@ import logoCsharp from "../../img/csharp.png";
 import logoPHP from "../../img/php.png";
 import logoConversor from "../../img/conversor.png";
 
+
+
 function Home() {
 
   // =========================== BLOCO 1: Projetos ===========================
