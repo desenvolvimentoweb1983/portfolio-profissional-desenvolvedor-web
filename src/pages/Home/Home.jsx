@@ -1,11 +1,22 @@
 import "./Home.css";
+
 import LanguageBarChart from "../../components/LanguageBarChart/LanguageBarChart";
 import SkillTable from "../../components/OSPopularityTable/OSPopularityTable";
-import WeatherApp from "../../components/WeatherApp/WeatherApp"
-import { FaReact, FaJs, FaCss3Alt, FaHtml5, FaWordpress, FaGamepad } from "react-icons/fa";
-import { FaPhp } from "react-icons/fa";
-import { FaCode } from "react-icons/fa";
-import { FaPython } from "react-icons/fa";
+import WeatherApp from "../../components/WeatherApp/WeatherApp";
+
+import {
+  FaReact,
+  FaJs,
+  FaCss3Alt,
+  FaHtml5,
+  FaWordpress,
+  FaGamepad,
+  FaPhp,
+  FaCode,
+  FaPython,
+} from "react-icons/fa";
+
+import { SiVite } from "react-icons/si";
 
 import logoCsharp from "../../img/csharp.png";
 import logoPHP from "../../img/php.png";
