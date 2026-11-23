@@ -16,6 +16,13 @@ function Home() {
   // =========================== BLOCO 1: Projetos ===========================
   const projetos = [
     {
+  nome: "DevLuisOliveira-AI",
+  descricao: "Plataforma demonstrativa de chatbots personalizados para empresas, desenvolvida com React, Vite e JavaScript. Inclui quatro assistentes virtuais interativos: Barbearia Premium, Restaurante Sabor, Loja Fashion e Clínica Saúde.",
+  url: "https://devluisoliveira-ai.vercel.app/",
+  tecnologias: [<FaReact />, <SiVite />, <FaJs />, <FaHtml5 />, <FaCss3Alt />],
+  imagem: "/images/devluisoliveira-ai.png",
+},
+    {
   nome: "Western Shooter 3D",
   descricao: "Jogo de tiro 3D em JavaScript + Three.js + Vite.",
   url: "https://western-shooter-3d.vercel.app/",
@@ -63,13 +70,6 @@ function Home() {
       url: "https://webdevluis.vercel.app/",
       tecnologias: [<FaHtml5 />, <FaCss3Alt />, <FaJs />],
       imagem: "https://webdevluis.vercel.app/imagens/banner.jpg",
-    },
-    {
-      nome: "php-na-pratica",
-      descricao: "Projeto simples desenvolvido em PHP para demonstrar conhecimentos em desenvolvimento web, com estrutura organizada, conteúdo dinâmico e layout responsivo.",
-      url: "https://webdevluis.infinityfreeapp.com/",
-      tecnologias: [<FaPhp />],
-      imagem: logoPHP,
     },
     {
       nome: "Registro de Marcas",
